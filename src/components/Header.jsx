@@ -1,10 +1,16 @@
 
+   import React from "react";
+
+function Header() {
+  return (
     <header>
       <h1>Josué Gonçalves</h1>
       <nav>
-        <ul>
-          <li><a href="#sobre">Sobre</a></li>
-          <li><a href="#projetos">Projetos</a></li>
-        </ul>
+        <a href="#sobre">Sobre</a>
+        <a href="#projetos">Projetos</a>
       </nav>
     </header>
+  );
+}
+
+export default Header;
